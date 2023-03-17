@@ -1,0 +1,10 @@
+intro pqr,
+intro pq,
+intro p,
+
+apply pqr,
+
+exact p,
+
+apply pq,
+exact p,
