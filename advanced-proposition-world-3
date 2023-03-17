@@ -1,0 +1,4 @@
+intros hpq hqr,
+split,
+exact hpq.1,
+exact hqr.2,
