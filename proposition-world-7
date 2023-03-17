@@ -1,0 +1,4 @@
+intros hpq hqr p,
+apply hqr,
+apply hpq,
+exact p,
