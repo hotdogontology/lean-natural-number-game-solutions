@@ -1,0 +1,7 @@
+cases hab with k hk,
+cases hbc with d hd,
+use (k+d),
+rw hd,
+rw hk,
+rw ← add_assoc,
+refl,
