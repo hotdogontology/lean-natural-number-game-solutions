@@ -1,0 +1,9 @@
+induction c with k hk,
+
+repeat {rw mul_zero},
+
+repeat {rw mul_succ},
+repeat {rw mul_add},
+rw hk,
+rw mul_comm a b,
+refl,
