@@ -1,0 +1,35 @@
+split,
+
+intro h,
+cases h with p qr,
+cases qr with q r,
+
+left,
+split,
+exact p,
+exact q,
+
+right,
+split,
+exact p,
+exact r,
+
+intro h,
+cases h with pq pr,
+cases pq with p q,
+
+split,
+exact p,
+
+left,
+exact q,
+
+cases pr with p r,
+
+split,
+exact p,
+
+right,
+exact r,
+
+--There may be a more efficient proof, but it got the job done.
