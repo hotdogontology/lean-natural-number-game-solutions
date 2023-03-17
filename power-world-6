@@ -1,0 +1,9 @@
+induction n with k hk,
+
+repeat {rw pow_zero},
+rw mul_one,
+refl,
+
+repeat {rw pow_succ},
+rw hk,
+simp,
