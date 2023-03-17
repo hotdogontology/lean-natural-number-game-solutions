@@ -1,0 +1,21 @@
+intro h,
+cases h with p q,
+cases p with k hk,
+cases k with d hd,
+
+rw add_zero at hk,
+rw hk,
+exfalso,
+apply q,
+use 0,
+rw add_zero,
+symmetry,
+exact hk,
+
+rw hk,
+rw add_succ,
+use d,
+rw succ_add,
+refl,
+
+--This is another one where I needed a little help to get started. 
