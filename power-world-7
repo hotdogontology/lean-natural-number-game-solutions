@@ -1,0 +1,10 @@
+induction n with k hk,
+
+rw mul_zero,
+repeat {rw pow_zero},
+
+rw mul_succ,
+rw pow_succ,
+rw hk,
+rw pow_add,
+refl,
