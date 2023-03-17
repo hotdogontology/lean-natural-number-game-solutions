@@ -1,0 +1,24 @@
+by_cases p : P; by_cases q : Q,
+
+intro h,
+intro p,
+exact q,
+
+intro h,
+intro p,
+exfalso,
+apply h,
+exact q,
+exact p,
+
+intro h,
+intro p,
+exact q,
+
+intro h,
+intro hp,
+exfalso,
+apply p,
+exact hp,
+
+--Messy, but again it worked. 
