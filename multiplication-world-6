@@ -1,0 +1,11 @@
+induction b with k hk,
+
+repeat {rw mul_zero},
+rw add_zero,
+refl,
+
+repeat {rw mul_succ},
+repeat {rw add_succ},
+rw hk,
+rw add_right_comm (a*k) k a,
+refl,
