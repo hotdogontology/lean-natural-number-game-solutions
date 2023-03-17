@@ -1,0 +1,8 @@
+intro h,
+induction n with k hk,
+
+apply zero_ne_succ 0,
+exact h,
+
+apply hk,
+apply succ_inj h,
