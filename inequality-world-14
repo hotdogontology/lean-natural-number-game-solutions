@@ -1,0 +1,5 @@
+cases h with k h,
+rw h,
+use k,
+rw ← add_assoc,
+refl,
