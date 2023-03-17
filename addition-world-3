@@ -1,0 +1,7 @@
+induction b with k hk,
+
+repeat {rw add_zero},
+
+repeat {rw add_succ},
+rw hk,
+refl,
