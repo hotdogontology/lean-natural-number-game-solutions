@@ -1,0 +1,3 @@
+split,
+apply succ_inj,
+apply succ_eq_succ_of_eq,
