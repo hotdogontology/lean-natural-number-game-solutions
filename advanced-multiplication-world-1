@@ -1,0 +1,9 @@
+intros ha hb h,
+cases b with n,
+
+rw mul_zero at h,
+exact hb(h),
+
+rw mul_succ at h,
+have j := add_left_eq_zero(h),
+exact ha(j),
