@@ -1,0 +1,14 @@
+intro h,
+split,
+
+have ha := le_succ_self(a),
+apply le_trans a (succ a) b,
+exact ha,
+exact h,
+
+intro p,
+have q := le_trans (succ a) b a,
+apply not_succ_le_self a,
+apply q,
+exact h,
+exact p,
