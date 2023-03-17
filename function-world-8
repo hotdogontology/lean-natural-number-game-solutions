@@ -1,0 +1,4 @@
+intros pq qe p,
+apply qe,
+apply pq,
+exact p,
