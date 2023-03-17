@@ -1,0 +1,9 @@
+intro h,
+rw ← add_zero a at h,
+rw add_assoc at h,
+rw zero_add at h,
+rw add_left_cancel a b 0,
+refl,
+exact h,
+
+--needed a little help from https://github.com/robinsonkwame on this one, kept trying to do induction and getting stuck
